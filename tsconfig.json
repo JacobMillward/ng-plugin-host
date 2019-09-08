@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ng-plugin-host": [
+        "dist/ng-plugin-host"
+      ],
+      "ng-plugin-host/*": [
+        "dist/ng-plugin-host/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
